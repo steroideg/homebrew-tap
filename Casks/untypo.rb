@@ -8,7 +8,7 @@ cask "untypo" do
   homepage "https://untypo.app/"
 
   auto_updates true
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Untypo.app"
 
